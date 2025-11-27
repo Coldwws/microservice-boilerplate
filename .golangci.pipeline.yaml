@@ -6,9 +6,10 @@ run:
 
 output:
   formats:
-    - colored-line-number
+    - format: colored-line-number
   print-issued-lines: true
   print-linter-name: true
+
 
 linters-settings:
   dupl:
@@ -29,7 +30,7 @@ linters:
     - revive
     - typecheck
     - unused
-    - shadow    # добавлено
+
 
 issues:
   exclude-use-default: false
